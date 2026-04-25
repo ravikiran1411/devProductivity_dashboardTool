@@ -52,15 +52,22 @@ This dashboard:
 
 ---
 
-## 🌐 Live Demo
+## 📁 Project Structure
 
-Frontend deployed on Vercel:
+```
+devProductivity-dashboardTool/
+├── frontend/
+│   ├── src/        # React components
+│   ├── package.json
+│
+├── backend/
+│   ├── data/       # Jira, PR, Deployment, Bug data
+│   ├── server.js   # API logic
+│   ├── package.json
+│
+├── README.md
+```
 
-👉 https://developerproductivitydashboard.vercel.app/
-
-(Note: Backend runs locally for demo purposes)
-
----
 
 ## ▶️ How to Run Locally
 
@@ -75,6 +82,16 @@ npm run server
 cd frontend
 npm install
 npm run dev
+
+---
+
+## 🌐 Live Demo
+
+Frontend deployed on Vercel:
+
+👉 https://developerproductivitydashboard.vercel.app/
+
+(Note: Backend runs locally for demo purposes)
 
 ---
 
